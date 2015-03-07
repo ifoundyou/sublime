@@ -24,13 +24,13 @@
 			"buffers":
 			[
 				{
-					"contents": "//Step 1. 取消下面的注释开启simple插件，注意需要先进行插件安装 npm install -g fis-postpackager-simple\nfis.config.set('modules.postpackager', 'simple');\n\n//通过pack设置干预自动合并结果，将公用资源合并成一个文件，更加利于页面间的共用\n\n//Step 2. 取消下面的注释开启pack人工干预\nfis.config.set('pack', {\n    'pkg/lib.js': [\n        '/lib/mod.js',\n        '/modules/underscore/**.js',\n        '/modules/backbone/**.js',\n        '/modules/jquery/**.js',\n        '/modules/vendor/**.js',\n        '/modules/common/**.js'\n    ]\n});\n\n// Step 3. 取消下面的注释可以开启simple对零散资源的自动合并\nfis.config.set('settings.postpackager.simple.autoCombine', true);\n\n\n//Step 4. 取消下面的注释开启图片合并功能\nfis.config.set('roadmap.path', [{\n    reg: '**.css',\n    useSprite: true\n}]);\nfis.config.set('settings.spriter.csssprites.margin', 20);\n//Step 5. 线上路径配置\n// fis.config.set(\"roadmap.domain\", \"http://static.baidu.com\"); //配置domain\n// fis.config.set(\"roadmap.path\", [{\n//     reg: /^\\/static\\/a\\.css$/,\n//     release: '/static/release/a.css' //配置产出路径\n// }]);\n",
+					"contents": "//Step 1. 取消下面的注释开启simple插件，注意需要先进行插件安装 npm install -g fis-postpackager-simple\nfis.config.set('modules.postpackager', 'simple');\n\n//通过pack设置干预自动合并结果，将公用资源合并成一个文件，更加利于页面间的共用\n\n//Step 2. 取消下面的注释开启pack人工干预\nfis.config.set('pack', {\n    'pkg/lib.js': [\n        '/lib/mod.js',\n        '/modules/underscore/**.js',\n        '/modules/backbone/**.js',\n        '/modules/jquery/**.js',\n        '/modules/vendor/**.js',\n        '/modules/common/**.js'\n    ]\n});\n\n// Step 3. 取消下面的注释可以开启simple对零散资源的自动合并\nfis.config.set('settings.postpackager.simple.autoCombine', true);\n\n\n//Step 4. 取消下面的注释开启图片合并功能\nfis.config.set('roadmap.path', [{\n    reg: '**.css',\n    useSprite: true\n}]);\n/**\n * \n */\nfis.config.set('settings.spriter.csssprites.margin', 20);\n//Step 5. 线上路径配置\n// fis.config.set(\"roadmap.domain\", \"http://static.baidu.com\"); //配置domain\n// fis.config.set(\"roadmap.path\", [{\n//     reg: /^\\/static\\/a\\.css$/,\n//     release: '/static/release/a.css' //配置产出路径\n// }]);\n/**\n * \n */",
 					"file": "/E/fis/fis-conf.js",
 					"file_size": 1215,
 					"file_write_time": 130699572287933340,
 					"settings":
 					{
-						"buffer_size": 940,
+						"buffer_size": 963,
 						"line_ending": "Windows"
 					}
 				},
@@ -44,20 +44,21 @@
 					}
 				},
 				{
+					"contents": "/**\n * [description]\n * @param  {[type]}\n * @return {[type]}\n */\nfunction(b){\n	var a=0;\n	var c=a+b;\n	return c;\n}",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 112,
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"contents": "@charset 'utf-8';\n/* CSS Document */\n\n/* Store修改 */\n.page-con .buy\n{\n    position: absolute;\n    bottom: 11%;\n    left: 50%;\n\n    display: block;\n\n    width: 180px;\n    height: 48px;\n    margin-left: -90px;\n\n    border-radius: 24px;\n    background: rgba(0,0,0,.5) url(../img/btn_normal.png) no-repeat 0 0;\n}\n.page-con .buy:active\n{\n    background-color: rgba(0,0,0,1);\n}\n/**\n * 声音元件\n * -u-audio\n \n.u-weixin {margin-left:0; position:absolute; top:280px; right:73px; z-index:200;}\n.u-weixin .bigTxt-btn {width:44px; height:44px; margin-left:0;  background:none !important;}\n.u-weixin .bigTxt-btn a {height:44px;}\n.market-notice {color:#FFF;}\n*/\n\n/* Store修改 */\n.page-con .new_buy span\n{\n    font-size: 28px;\n\n    position: absolute;\n    left: 50%;\n\n    display: block;\n    display: block;\n\n    padding: 20px 50px;\n    padding-right: 20px;\n    padding-left: 20px;\n\n    opacity: .8;\n    color: white;\n    border-radius: 12px;\n    background-color: gray;\n    background-color: black;\n}\n.page-con .new_buy span:active\n{\n    opacity: 1;\n}\n.tx li\n{\n    margin-right: 12px;\n    margin-left: 12px;\n\n    list-style: none;\n}\n.tx ul\n{\n    margin-top: 10px;\n    margin-bottom: 10px;\n}\n/*文字类*/\n.tx\n{\n    font-size: 50px;\n\n    position: absolute;\n\n    display: none;\n\n    text-align: left;\n    word-break: break-all;\n\n    opacity: .8;\n    color: pink;\n}\n.tx_none\n{\n    font-size: 50px;\n\n    position: absolute;\n\n    width: 100%;\n\n    text-align: left;\n    word-break: break-all;\n\n    opacity: .8;\n    color: pink;\n}\n.ef_show\n{\n    display: block;\n}\n.tx-h\n{\n    font-size: 39px;\n}\n.tx-b\n{\n    font-size: 50px;\n}\n/*方向类*/\n.t\n{\n    width: 100%;\n}\n.b\n{\n    width: 100%;\n}\n.r\n{\n    width: 100%;\n}\n.l\n{\n    width: 100%;\n}\n\n/*动画类*/\n.bounceinT\n{\n    /* 弹入-从上 */\n    -webkit-animation: bounceinT 1s ease-in-out;\n}\n.bounceinB\n{\n    /* 弹入-从下 */\n    -webkit-animation: bounceinB 1s ease-in-out;\n}\n.linearR\n{\n    /* 直入-从右 */\n    -webkit-animation: linearR .5s ease-in;\n}\n.linearL\n{\n    /* 直入-从左 */\n    -webkit-animation: linearL .5s ease-in;\n}\n\n/*动画帧*/\n@-webkit-keyframes bounceinT\n{\n    0%\n    {\n        -webkit-transform: translateY(-736px);\n    }\n    60%\n    {\n        -webkit-transform: translateY(40px);\n    }\n    80%\n    {\n        -webkit-transform: translateY(-20px);\n    }\n    100%\n    {\n        -webkit-transform: translateY(0);\n    }\n}\n\n@-webkit-keyframes linearR\n{\n    0%\n    {\n        -webkit-transform: translate3d(640px,0,0);\n    }\n    100%\n    {\n        -webkit-transform: translate3d(0);\n    }\n}\n\n\n@-webkit-keyframes bounceinB\n{\n    0%\n    {\n        -webkit-transform: translateY(736px);\n    }\n    60%\n    {\n        -webkit-transform: translateY(-40px);\n    }\n    80%\n    {\n        -webkit-transform: translateY(20px);\n    }\n    100%\n    {\n        -webkit-transform: translateY(0);\n    }\n}\n\n@-webkit-keyframes linearL\n{\n    0%\n    {\n        -webkit-transform: translate3d(-640px,0,0);\n    }\n    100%\n    {\n        -webkit-transform: translate3d(0);\n    }\n}\n/*diamonds*/\n/*1*/\n.page1\n{\n    position: absolute;\n\n    margin: -400px 299px;\n}\n.cente\n{\n    margin: 0 auto;\n}\n.hidde\n{\n    opacity: 0;\n}\n\n.inv\n{\n    opacity: 0;\n}\n.sho\n{\n    opacity: 1;\n}\n.sky\n{\n    z-index: 20;\n}\n.falling\n{\n    -webkit-animation: falling .7s cubic-bezier(0,-.18,0,1.1) 300ms 1 ;\n}\n.ripple li\n{\n    position: absolute;\n    top: 50%;\n    left: 50%;\n\n    border-radius: 100%;\n    background: blue;\n}\n.ripple li:nth-of-type(1)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  0ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(2)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  600ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(3)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  1200ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(4)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  1800ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(5)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  2400ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(6)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  3000ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(7)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  3600ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(8)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  4200ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(9)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  4800ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(10)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  5400ms infinite ;\n\n    background: #666;\n}\n@-webkit-keyframes falling\n{\n    0%\n    {\n        -webkit-transform: translate3d(0,-640px,0);\n\n        opacity: .3;\n    }\n    100%\n    {\n        -webkit-transform: translate3d(0);\n\n        opacity: 1;\n    }\n}\n@-webkit-keyframes ripple\n{\n    0%\n    {\n        -webkit-transform: scale(1);\n\n        opacity: 1;\n    }\n    100%\n    {\n        -webkit-transform: scale(10);\n\n        opacity: 0;\n    }\n}\n.page1-2,\n.page1-3\n{\n    position: absolute;\n    top: 500px;\n\n    display: block;\n}\n.page1-4\n{\n    position: absolute;\n    top: 580px;\n    left: 200px;\n}\n.flyin\n{\n    -webkit-animation: flyin 500ms ease-in-out;\n}\n@-webkit-keyframes flyin\n{\n    0%\n    {\n        top: 1000px;\n    }\n    100%\n    {\n        top: 580px;\n    }\n}\n/*2*/\n.ind\n{\n    position: absolute;\n}\n.toBottom100\n{\n    bottom: 100px;\n}\n.delay1000\n{\n    -webkit-transition-delay: 1000ms;\n}\n.delay2000\n{\n    -webkit-transition-delay: 2000ms;\n}\n.delay3000\n{\n    -webkit-transition-delay: 3000ms;\n}\n.ani-opacity\n{\n    -webkit-transition-property: opacity;\n}\n.ani-duration1000\n{\n    -webkit-transition-duration: 1000ms;\n}\n.ani-duration3000\n{\n    -webkit-transition-duration: 1000ms;\n}\n.ani-duration500\n{\n    -webkit-transition-duration: 500ms;\n}\n/*3*/\n.kf-rotated\n{\n    -webkit-animation-name: rotated;\n}\n.ani-transform\n{\n    -webkit-transition-property: -webkit-transform;\n}\n@-webkit-keyframes rotated\n{\n    0%\n    {\n        -webkit-transform: rotate(0);\n    }\n    50%\n    {\n        -webkit-transform: rotate(180deg);\n    }\n    100%\n    {\n        -webkit-transform: rotate(360deg);\n    }\n}\n.kf-duration1000\n{\n    -webkit-animation-duration: 10000ms;\n}\n.kf-iteration\n{\n    -webkit-animation-iteration-count: infinite;\n}\n/*6*/\n.scale0\n{\n    -webkit-transform: scale(0);\n}\n.scale1\n{\n    -webkit-transform: scale(1);\n}\n.p6-0,\n.p5-0\n{\n    bottom: 200px;\n    left: 20px;\n}\n.kf-shine\n{\n    -webkit-animation-name: shine;\n}\n.kf-direction-alternate\n{\n    -webkit-animation-direction: alternate;\n}\n@-webkit-keyframes shine\n{\n    0%\n    {\n        opacity: 0;\n    }\n    100%\n    {\n        opacity: 1;\n    }\n}\n.kf-duration300\n{\n    -webkit-animation-duration: 300ms;\n}\n.kf-duration600\n{\n    -webkit-animation-duration: 600ms;\n}\n.kf-duration999\n{\n    -webkit-animation-duration: 999ms;\n}\n/*7*/\n.fullOfCt\n{\n    width: 100%;\n    height: auto;\n}\n/*14*/\n.inv-up-600\n{\n    top: -600px;\n}\n.restore-0\n{\n    top: 0;\n}\n/*15*/\n.top200\n{\n    top: 200px;\n}\n.top100\n{\n    top: 100px;\n}\n.top-640\n{\n    top: -640px;\n}\nimg.top0\n{\n    top: 0;\n}\n.right-50\n{\n    right: -50px;\n}\n.top-50\n{\n    right: -50px;\n}\nimg.right0\n{\n    right: 0;\n}\n.right-640\n{\n    right: -640px;\n}\nimg.right640\n{\n    right: 640px;\n}\nimg.top500\n{\n    top: 500px;\n}\n.ani-duration6000\n{\n    -webkit-transition-duration: 6000ms;\n}\n",
+					"contents": "@charset 'utf-8';\n/* CSS Document */\n/**\n/* Store修改 */\n.page-con .buy\n{\n    position: absolute;\n    bottom: 11%;\n    left: 50%;\n\n    display: block;\n\n    width: 180px;\n    height: 48px;\n    margin-left: -90px;\n\n    border-radius: 24px;\n    background: rgba(0,0,0,.5) url(../img/btn_normal.png) no-repeat 0 0;\n}\n.page-con .buy:active\n{\n    background-color: rgba(0,0,0,1);\n}\n/**\n * 声音元件\n * -u-audio\n \n.u-weixin {margin-left:0; position:absolute; top:280px; right:73px; z-index:200;}\n.u-weixin .bigTxt-btn {width:44px; height:44px; margin-left:0;  background:none !important;}\n.u-weixin .bigTxt-btn a {height:44px;}\n.market-notice {color:#FFF;}\n*/\n\n/* Store修改 */\n.page-con .new_buy span\n{\n    font-size: 28px;\n\n    position: absolute;\n    left: 50%;\n\n    display: block;\n    display: block;\n\n    padding: 20px 50px;\n    padding-right: 20px;\n    padding-left: 20px;\n\n    opacity: .8;\n    color: white;\n    border-radius: 12px;\n    background-color: gray;\n    background-color: black;\n}\n.page-con .new_buy span:active\n{\n    opacity: 1;\n}\n.tx li\n{\n    margin-right: 12px;\n    margin-left: 12px;\n\n    list-style: none;\n}\n.tx ul\n{\n    margin-top: 10px;\n    margin-bottom: 10px;\n}\n/*文字类*/\n.tx\n{\n    font-size: 50px;\n\n    position: absolute;\n\n    display: none;\n\n    text-align: left;\n    word-break: break-all;\n\n    opacity: .8;\n    color: pink;\n}\n.tx_none\n{\n    font-size: 50px;\n\n    position: absolute;\n\n    width: 100%;\n\n    text-align: left;\n    word-break: break-all;\n\n    opacity: .8;\n    color: pink;\n}\n.ef_show\n{\n    display: block;\n}\n.tx-h\n{\n    font-size: 39px;\n}\n.tx-b\n{\n    font-size: 50px;\n}\n/*方向类*/\n.t\n{\n    width: 100%;\n}\n.b\n{\n    width: 100%;\n}\n.r\n{\n    width: 100%;\n}\n.l\n{\n    width: 100%;\n}\n\n/*动画类*/\n.bounceinT\n{\n    /* 弹入-从上 */\n    -webkit-animation: bounceinT 1s ease-in-out;\n}\n.bounceinB\n{\n    /* 弹入-从下 */\n    -webkit-animation: bounceinB 1s ease-in-out;\n}\n.linearR\n{\n    /* 直入-从右 */\n    -webkit-animation: linearR .5s ease-in;\n}\n.linearL\n{\n    /* 直入-从左 */\n    -webkit-animation: linearL .5s ease-in;\n}\n\n/*动画帧*/\n@-webkit-keyframes bounceinT\n{\n    0%\n    {\n        -webkit-transform: translateY(-736px);\n    }\n    60%\n    {\n        -webkit-transform: translateY(40px);\n    }\n    80%\n    {\n        -webkit-transform: translateY(-20px);\n    }\n    100%\n    {\n        -webkit-transform: translateY(0);\n    }\n}\n\n@-webkit-keyframes linearR\n{\n    0%\n    {\n        -webkit-transform: translate3d(640px,0,0);\n    }\n    100%\n    {\n        -webkit-transform: translate3d(0);\n    }\n}\n\n\n@-webkit-keyframes bounceinB\n{\n    0%\n    {\n        -webkit-transform: translateY(736px);\n    }\n    60%\n    {\n        -webkit-transform: translateY(-40px);\n    }\n    80%\n    {\n        -webkit-transform: translateY(20px);\n    }\n    100%\n    {\n        -webkit-transform: translateY(0);\n    }\n}\n\n@-webkit-keyframes linearL\n{\n    0%\n    {\n        -webkit-transform: translate3d(-640px,0,0);\n    }\n    100%\n    {\n        -webkit-transform: translate3d(0);\n    }\n}\n/*diamonds*/\n/*1*/\n.page1\n{\n    position: absolute;\n\n    margin: -400px 299px;\n}\n.cente\n{\n    margin: 0 auto;\n}\n.hidde\n{\n    opacity: 0;\n}\n\n.inv\n{\n    opacity: 0;\n}\n.sho\n{\n    opacity: 1;\n}\n.sky\n{\n    z-index: 20;\n}\n.falling\n{\n    -webkit-animation: falling .7s cubic-bezier(0,-.18,0,1.1) 300ms 1 ;\n}\n.ripple li\n{\n    position: absolute;\n    top: 50%;\n    left: 50%;\n\n    border-radius: 100%;\n    background: blue;\n}\n.ripple li:nth-of-type(1)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  0ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(2)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  600ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(3)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  1200ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(4)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  1800ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(5)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  2400ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(6)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  3000ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(7)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  3600ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(8)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  4200ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(9)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  4800ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(10)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  5400ms infinite ;\n\n    background: #666;\n}\n@-webkit-keyframes falling\n{\n    0%\n    {\n        -webkit-transform: translate3d(0,-640px,0);\n\n        opacity: .3;\n    }\n    100%\n    {\n        -webkit-transform: translate3d(0);\n\n        opacity: 1;\n    }\n}\n@-webkit-keyframes ripple\n{\n    0%\n    {\n        -webkit-transform: scale(1);\n\n        opacity: 1;\n    }\n    100%\n    {\n        -webkit-transform: scale(10);\n\n        opacity: 0;\n    }\n}\n.page1-2,\n.page1-3\n{\n    position: absolute;\n    top: 500px;\n\n    display: block;\n}\n.page1-4\n{\n    position: absolute;\n    top: 580px;\n    left: 200px;\n}\n.flyin\n{\n    -webkit-animation: flyin 500ms ease-in-out;\n}\n@-webkit-keyframes flyin\n{\n    0%\n    {\n        top: 1000px;\n    }\n    100%\n    {\n        top: 580px;\n    }\n}\n/*2*/\n.ind\n{\n    position: absolute;\n}\n.toBottom100\n{\n    bottom: 100px;\n}\n.delay1000\n{\n    -webkit-transition-delay: 1000ms;\n}\n.delay2000\n{\n    -webkit-transition-delay: 2000ms;\n}\n.delay3000\n{\n    -webkit-transition-delay: 3000ms;\n}\n.ani-opacity\n{\n    -webkit-transition-property: opacity;\n}\n.ani-duration1000\n{\n    -webkit-transition-duration: 1000ms;\n}\n.ani-duration3000\n{\n    -webkit-transition-duration: 1000ms;\n}\n.ani-duration500\n{\n    -webkit-transition-duration: 500ms;\n}\n/*3*/\n.kf-rotated\n{\n    -webkit-animation-name: rotated;\n}\n.ani-transform\n{\n    -webkit-transition-property: -webkit-transform;\n}\n@-webkit-keyframes rotated\n{\n    0%\n    {\n        -webkit-transform: rotate(0);\n    }\n    50%\n    {\n        -webkit-transform: rotate(180deg);\n    }\n    100%\n    {\n        -webkit-transform: rotate(360deg);\n    }\n}\n.kf-duration1000\n{\n    -webkit-animation-duration: 10000ms;\n}\n.kf-iteration\n{\n    -webkit-animation-iteration-count: infinite;\n}\n/*6*/\n.scale0\n{\n    -webkit-transform: scale(0);\n}\n.scale1\n{\n    -webkit-transform: scale(1);\n}\n.p6-0,\n.p5-0\n{\n    bottom: 200px;\n    left: 20px;\n}\n.kf-shine\n{\n    -webkit-animation-name: shine;\n}\n.kf-direction-alternate\n{\n    -webkit-animation-direction: alternate;\n}\n@-webkit-keyframes shine\n{\n    0%\n    {\n        opacity: 0;\n    }\n    100%\n    {\n        opacity: 1;\n    }\n}\n.kf-duration300\n{\n    -webkit-animation-duration: 300ms;\n}\n.kf-duration600\n{\n    -webkit-animation-duration: 600ms;\n}\n.kf-duration999\n{\n    -webkit-animation-duration: 999ms;\n}\n/*7*/\n.fullOfCt\n{\n    width: 100%;\n    height: auto;\n}\n/*14*/\n.inv-up-600\n{\n    top: -600px;\n}\n.restore-0\n{\n    top: 0;\n}\n/*15*/\n.top200\n{\n    top: 200px;\n}\n.top100\n{\n    top: 100px;\n}\n.top-640\n{\n    top: -640px;\n}\nimg.top0\n{\n    top: 0;\n}\n.right-50\n{\n    right: -50px;\n}\n.top-50\n{\n    right: -50px;\n}\nimg.right0\n{\n    right: 0;\n}\n.right-640\n{\n    right: -640px;\n}\nimg.right640\n{\n    right: 640px;\n}\nimg.top500\n{\n    top: 500px;\n}\n.ani-duration6000\n{\n    -webkit-transition-duration: 6000ms;\n}\n",
 					"file": "/F/Desktop/store.css",
 					"file_size": 7291,
 					"file_write_time": 130701271428974312,
 					"settings":
 					{
-						"buffer_size": 7798,
+						"buffer_size": 7801,
 						"line_ending": "Windows"
 					}
 				}
@@ -65,9 +66,17 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 129.0,
+				"height": 185.0,
 				"selected_items":
 				[
+					[
+						"ssjs",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
 					[
 						"cssco",
 						"Run CSScomb"
@@ -89,10 +98,6 @@
 						"HTMLPrettify"
 					],
 					[
-						"ins",
-						"Package Control: Install Package"
-					],
-					[
 						"Package Control: ",
 						"Package Control: List Packages"
 					],
@@ -111,10 +116,6 @@
 					[
 						"htm",
 						"HTMLPrettify"
-					],
-					[
-						"ssjs",
-						"Set Syntax: JavaScript"
 					],
 					[
 						"paka",
@@ -237,7 +238,7 @@
 			"groups":
 			[
 				{
-					"selected": 3,
+					"selected": 2,
 					"sheets":
 					[
 						{
@@ -246,12 +247,16 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 940,
+								"buffer_size": 963,
 								"regions":
 								{
 								},
 								"selection":
 								[
+									[
+										669,
+										669
+									]
 								],
 								"settings":
 								{
@@ -261,7 +266,7 @@
 								"translation.y": 630.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 3,
+							"stack_index": 1,
 							"type": "text"
 						},
 						{
@@ -289,7 +294,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 3,
 							"type": "text"
 						},
 						{
@@ -297,26 +302,26 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 0,
+								"buffer_size": 112,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										0
+										19,
+										19
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/Text/Plain text.tmLanguage"
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 0,
 							"type": "text"
 						},
 						{
@@ -325,15 +330,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 7798,
+								"buffer_size": 7801,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										904,
-										904
+										40,
+										40
 									]
 								],
 								"settings":
@@ -354,10 +359,10 @@
 									"translate_tabs_to_spaces": true
 								},
 								"translation.x": -0.0,
-								"translation.y": 5850.0,
+								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 0,
+							"stack_index": 2,
 							"type": "text"
 						}
 					]
