@@ -44,13 +44,21 @@
 					}
 				},
 				{
-					"contents": "Package Control Messages\n========================\n\nCSS Extended Completions:\n------------------------\n\n  CSS Extended Completions\n  \n  Save any file you're working on to add its CSS/LESS/SCSS symbols to the completion index.\n  \n  The following completions are provided:\n  \n  - Extended CSS property/values\n  - CSS class names\n  - CSS IDs\n  - LESS variables/mixins/classes\n  - SCSS variables/mixins/classes\n  \n  Available Options\n  \n  - Options for what scopes trigger completions\n  - Option to auto clear cache on close.\n    Set \"save_cache_to_file\":false (defaults to true)\n  - Auto load css/less/scss from external folders\n    Example: \"load_external_files\":[\"/some/folder\", \"/another/folder\"]\n    (Must be absolute paths)\n  - Option to adjust what pseudo selectors are added to completions\n  - And more, just checkout the Default Settings file\n    Preferences > Package Settings > CSS Extended Completions\n  \n  \n  To delete your cache, open the command palette and type 'CSS delete cache'\n  \n  ",
 					"settings":
 					{
-						"buffer_size": 997,
-						"line_ending": "Windows",
-						"name": "Package Control Messages",
-						"scratch": true
+						"buffer_size": 0,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "@charset 'utf-8';\n/* CSS Document */\n\n/* Store修改 */\n.page-con .buy\n{\n    position: absolute;\n    bottom: 11%;\n    left: 50%;\n\n    display: block;\n\n    width: 180px;\n    height: 48px;\n    margin-left: -90px;\n\n    border-radius: 24px;\n    background: rgba(0,0,0,.5) url(../img/btn_normal.png) no-repeat 0 0;\n}\n.page-con .buy:active\n{\n    background-color: rgba(0,0,0,1);\n}\n/**\n * 声音元件\n * -u-audio\n \n.u-weixin {margin-left:0; position:absolute; top:280px; right:73px; z-index:200;}\n.u-weixin .bigTxt-btn {width:44px; height:44px; margin-left:0;  background:none !important;}\n.u-weixin .bigTxt-btn a {height:44px;}\n.market-notice {color:#FFF;}\n*/\n\n/* Store修改 */\n.page-con .new_buy span\n{\n    font-size: 28px;\n\n    position: absolute;\n    left: 50%;\n\n    display: block;\n    display: block;\n\n    padding: 20px 50px;\n    padding-right: 20px;\n    padding-left: 20px;\n\n    opacity: .8;\n    color: white;\n    border-radius: 12px;\n    background-color: gray;\n    background-color: black;\n}\n.page-con .new_buy span:active\n{\n    opacity: 1;\n}\n.tx li\n{\n    margin-right: 12px;\n    margin-left: 12px;\n\n    list-style: none;\n}\n.tx ul\n{\n    margin-top: 10px;\n    margin-bottom: 10px;\n}\n/*文字类*/\n.tx\n{\n    font-size: 50px;\n\n    position: absolute;\n\n    display: none;\n\n    text-align: left;\n    word-break: break-all;\n\n    opacity: .8;\n    color: pink;\n}\n.tx_none\n{\n    font-size: 50px;\n\n    position: absolute;\n\n    width: 100%;\n\n    text-align: left;\n    word-break: break-all;\n\n    opacity: .8;\n    color: pink;\n}\n.ef_show\n{\n    display: block;\n}\n.tx-h\n{\n    font-size: 39px;\n}\n.tx-b\n{\n    font-size: 50px;\n}\n/*方向类*/\n.t\n{\n    width: 100%;\n}\n.b\n{\n    width: 100%;\n}\n.r\n{\n    width: 100%;\n}\n.l\n{\n    width: 100%;\n}\n\n/*动画类*/\n.bounceinT\n{\n    /* 弹入-从上 */\n    -webkit-animation: bounceinT 1s ease-in-out;\n}\n.bounceinB\n{\n    /* 弹入-从下 */\n    -webkit-animation: bounceinB 1s ease-in-out;\n}\n.linearR\n{\n    /* 直入-从右 */\n    -webkit-animation: linearR .5s ease-in;\n}\n.linearL\n{\n    /* 直入-从左 */\n    -webkit-animation: linearL .5s ease-in;\n}\n\n/*动画帧*/\n@-webkit-keyframes bounceinT\n{\n    0%\n    {\n        -webkit-transform: translateY(-736px);\n    }\n    60%\n    {\n        -webkit-transform: translateY(40px);\n    }\n    80%\n    {\n        -webkit-transform: translateY(-20px);\n    }\n    100%\n    {\n        -webkit-transform: translateY(0);\n    }\n}\n\n@-webkit-keyframes linearR\n{\n    0%\n    {\n        -webkit-transform: translate3d(640px,0,0);\n    }\n    100%\n    {\n        -webkit-transform: translate3d(0);\n    }\n}\n\n\n@-webkit-keyframes bounceinB\n{\n    0%\n    {\n        -webkit-transform: translateY(736px);\n    }\n    60%\n    {\n        -webkit-transform: translateY(-40px);\n    }\n    80%\n    {\n        -webkit-transform: translateY(20px);\n    }\n    100%\n    {\n        -webkit-transform: translateY(0);\n    }\n}\n\n@-webkit-keyframes linearL\n{\n    0%\n    {\n        -webkit-transform: translate3d(-640px,0,0);\n    }\n    100%\n    {\n        -webkit-transform: translate3d(0);\n    }\n}\n/*diamonds*/\n/*1*/\n.page1\n{\n    position: absolute;\n\n    margin: -400px 299px;\n}\n.cente\n{\n    margin: 0 auto;\n}\n.hidde\n{\n    opacity: 0;\n}\n\n.inv\n{\n    opacity: 0;\n}\n.sho\n{\n    opacity: 1;\n}\n.sky\n{\n    z-index: 20;\n}\n.falling\n{\n    -webkit-animation: falling .7s cubic-bezier(0,-.18,0,1.1) 300ms 1 ;\n}\n.ripple li\n{\n    position: absolute;\n    top: 50%;\n    left: 50%;\n\n    border-radius: 100%;\n    background: blue;\n}\n.ripple li:nth-of-type(1)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  0ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(2)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  600ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(3)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  1200ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(4)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  1800ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(5)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  2400ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(6)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  3000ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(7)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  3600ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(8)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  4200ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(9)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  4800ms infinite ;\n\n    background: #666;\n}\n.ripple li:nth-of-type(10)\n{\n    width: 64px;\n    height: 64px;\n\n    -webkit-animation: ripple 6s cubic-bezier(.66,.13,.92,1.82)  5400ms infinite ;\n\n    background: #666;\n}\n@-webkit-keyframes falling\n{\n    0%\n    {\n        -webkit-transform: translate3d(0,-640px,0);\n\n        opacity: .3;\n    }\n    100%\n    {\n        -webkit-transform: translate3d(0);\n\n        opacity: 1;\n    }\n}\n@-webkit-keyframes ripple\n{\n    0%\n    {\n        -webkit-transform: scale(1);\n\n        opacity: 1;\n    }\n    100%\n    {\n        -webkit-transform: scale(10);\n\n        opacity: 0;\n    }\n}\n.page1-2,\n.page1-3\n{\n    position: absolute;\n    top: 500px;\n\n    display: block;\n}\n.page1-4\n{\n    position: absolute;\n    top: 580px;\n    left: 200px;\n}\n.flyin\n{\n    -webkit-animation: flyin 500ms ease-in-out;\n}\n@-webkit-keyframes flyin\n{\n    0%\n    {\n        top: 1000px;\n    }\n    100%\n    {\n        top: 580px;\n    }\n}\n/*2*/\n.ind\n{\n    position: absolute;\n}\n.toBottom100\n{\n    bottom: 100px;\n}\n.delay1000\n{\n    -webkit-transition-delay: 1000ms;\n}\n.delay2000\n{\n    -webkit-transition-delay: 2000ms;\n}\n.delay3000\n{\n    -webkit-transition-delay: 3000ms;\n}\n.ani-opacity\n{\n    -webkit-transition-property: opacity;\n}\n.ani-duration1000\n{\n    -webkit-transition-duration: 1000ms;\n}\n.ani-duration3000\n{\n    -webkit-transition-duration: 1000ms;\n}\n.ani-duration500\n{\n    -webkit-transition-duration: 500ms;\n}\n/*3*/\n.kf-rotated\n{\n    -webkit-animation-name: rotated;\n}\n.ani-transform\n{\n    -webkit-transition-property: -webkit-transform;\n}\n@-webkit-keyframes rotated\n{\n    0%\n    {\n        -webkit-transform: rotate(0);\n    }\n    50%\n    {\n        -webkit-transform: rotate(180deg);\n    }\n    100%\n    {\n        -webkit-transform: rotate(360deg);\n    }\n}\n.kf-duration1000\n{\n    -webkit-animation-duration: 10000ms;\n}\n.kf-iteration\n{\n    -webkit-animation-iteration-count: infinite;\n}\n/*6*/\n.scale0\n{\n    -webkit-transform: scale(0);\n}\n.scale1\n{\n    -webkit-transform: scale(1);\n}\n.p6-0,\n.p5-0\n{\n    bottom: 200px;\n    left: 20px;\n}\n.kf-shine\n{\n    -webkit-animation-name: shine;\n}\n.kf-direction-alternate\n{\n    -webkit-animation-direction: alternate;\n}\n@-webkit-keyframes shine\n{\n    0%\n    {\n        opacity: 0;\n    }\n    100%\n    {\n        opacity: 1;\n    }\n}\n.kf-duration300\n{\n    -webkit-animation-duration: 300ms;\n}\n.kf-duration600\n{\n    -webkit-animation-duration: 600ms;\n}\n.kf-duration999\n{\n    -webkit-animation-duration: 999ms;\n}\n/*7*/\n.fullOfCt\n{\n    width: 100%;\n    height: auto;\n}\n/*14*/\n.inv-up-600\n{\n    top: -600px;\n}\n.restore-0\n{\n    top: 0;\n}\n/*15*/\n.top200\n{\n    top: 200px;\n}\n.top100\n{\n    top: 100px;\n}\n.top-640\n{\n    top: -640px;\n}\nimg.top0\n{\n    top: 0;\n}\n.right-50\n{\n    right: -50px;\n}\n.top-50\n{\n    right: -50px;\n}\nimg.right0\n{\n    right: 0;\n}\n.right-640\n{\n    right: -640px;\n}\nimg.right640\n{\n    right: 640px;\n}\nimg.top500\n{\n    top: 500px;\n}\n.ani-duration6000\n{\n    -webkit-transition-duration: 6000ms;\n}\n",
+					"file": "/F/Desktop/store.css",
+					"file_size": 7291,
+					"file_write_time": 130701271428974312,
+					"settings":
+					{
+						"buffer_size": 7798,
+						"line_ending": "Windows"
 					}
 				}
 			],
@@ -61,6 +69,18 @@
 				"selected_items":
 				[
 					[
+						"cssco",
+						"Run CSScomb"
+					],
+					[
+						"css",
+						"Run CSScomb"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
 						"insta",
 						"Package Control: Install Package"
 					],
@@ -70,10 +90,6 @@
 					],
 					[
 						"ins",
-						"Package Control: Install Package"
-					],
-					[
-						"in",
 						"Package Control: Install Package"
 					],
 					[
@@ -221,7 +237,7 @@
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 3,
 					"sheets":
 					[
 						{
@@ -245,7 +261,7 @@
 								"translation.y": 630.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 2,
+							"stack_index": 3,
 							"type": "text"
 						},
 						{
@@ -260,8 +276,8 @@
 								"selection":
 								[
 									[
-										2,
-										2
+										23,
+										23
 									]
 								],
 								"settings":
@@ -273,7 +289,7 @@
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"type": "text"
 						},
 						{
@@ -281,25 +297,64 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 997,
+								"buffer_size": 0,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										997,
-										997
+										0,
+										0
 									]
 								],
 								"settings":
 								{
-									"auto_indent": false,
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"word_wrap": true
+									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 1410.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/F/Desktop/store.css",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7798,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										904,
+										904
+									]
+								],
+								"settings":
+								{
+									"auto_complete_triggers":
+									[
+										{
+											"characters": "<",
+											"selector": "text.html"
+										},
+										{
+											"characters": ".#",
+											"selector": "text.html"
+										}
+									],
+									"syntax": "Packages/CSS/CSS.tmLanguage",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": -0.0,
+								"translation.y": 5850.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,

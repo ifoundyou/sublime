@@ -6,6 +6,7 @@
 	[
 		"Autoprefixer",
 		"CSS Extended Completions",
+		"CSScomb",
 		"Emmet",
 		"HTML-CSS-JS Prettify",
 		"JSLint",
