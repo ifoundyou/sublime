@@ -299,10 +299,13 @@
 					}
 				},
 				{
+					"contents": "/* \n* @Author: wanghongxin\n* @Date:   2015-03-08 01:54:53\n* @Contact:wanghongxin#outlook.com(QQ2262118088)\n* @Last Modified by:   wanghongxin\n* @Last Modified time: 2015-03-08 02:11:54\n*/\n\n\n\nfunction(b) {\n    var a = 0;\n    var c = a + b;\n    return c;\n}\nvar c = 0;\n",
 					"file": "/F/Desktop/test.js",
+					"file_size": 87,
+					"file_write_time": 130702255143053502,
 					"settings":
 					{
-						"buffer_size": 285,
+						"buffer_size": 266,
 						"line_ending": "Windows"
 					}
 				},
@@ -350,16 +353,16 @@
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 185.0,
+				"height": 381.0,
 				"selected_items":
 				[
 					[
-						"ssjs",
-						"Set Syntax: JavaScript"
-					],
-					[
 						"html",
 						"HTMLPrettify"
+					],
+					[
+						"ssjs",
+						"Set Syntax: JavaScript"
 					],
 					[
 						"insta",
@@ -605,15 +608,15 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 285,
+								"buffer_size": 266,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										137,
-										137
+										106,
+										106
 									]
 								],
 								"settings":
