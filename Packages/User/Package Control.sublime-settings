@@ -4,11 +4,13 @@
 	],
 	"installed_packages":
 	[
+		"Alignment",
 		"Autoprefixer",
 		"CSS Extended Completions",
 		"CSScomb",
 		"DocBlockr",
 		"Emmet",
+		"FileHeader",
 		"HTML-CSS-JS Prettify",
 		"JSLint",
 		"Package Control"
