@@ -1,0 +1,358 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3065,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"ht",
+						"http"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/E/fis/fis-conf.js",
+					"settings":
+					{
+						"buffer_size": 939,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "less,only once;\n",
+					"settings":
+					{
+						"buffer_size": 16,
+						"line_ending": "Windows",
+						"name": "less,only once;"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 269.0,
+				"selected_items":
+				[
+					[
+						"sshtt",
+						"Set Syntax: HTML"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"jsli",
+						"JSLint"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"htm",
+						"HTMLPrettify"
+					],
+					[
+						"ssjs",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"html",
+						"HTMLPrettify"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"paka",
+						"Package Control: List Packages"
+					],
+					[
+						"auto",
+						"Autoprefix CSS"
+					],
+					[
+						"au",
+						"Autoprefix CSS"
+					],
+					[
+						"a",
+						"Autoprefix CSS"
+					],
+					[
+						"sscss",
+						"Set Syntax: CSS"
+					]
+				],
+				"width": 549.0
+			},
+			"console":
+			{
+				"height": 232.0,
+				"history":
+				[
+					"import urllib.request,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib.request.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())",
+					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/F/Desktop/360云盘/代码/css3.css",
+				"/F/Desktop/360云盘/代码/transition.js",
+				"/F/Desktop/360云盘/王新科 汉 1939  370728193907051132",
+				"/F/Desktop/360云盘/css3.css",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+				"/F/Desktop/store.css",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Autoprefixer.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+				"/F/Desktop/node/Math.js",
+				"/F/Desktop/node/main.js",
+				"/F/Desktop/node/ball.html",
+				"/D/fis-quickstart-demo/fis-conf.js",
+				"/F/Desktop/node/node_modules/cookie/index.js",
+				"/E/coding-save-f5/Gruntfile.js",
+				"/E/trilogy/Gruntfile.js",
+				"/E/trilogy/dest/lib.js",
+				"/E/trilogy/js/main.js",
+				"/E/trilogy/dest/main.min.js",
+				"/E/trilogy/index.html",
+				"/E/trilogy/npm-debug.log",
+				"/E/trilogy/package.json",
+				"/E/grunt/Gruntfile.js",
+				"/E/coding-save-f5/index.html",
+				"/E/coding-save-f5/package.json",
+				"/E/grunt/package.json",
+				"/E/f5/package.json",
+				"/E/f5/Gruntfile.js",
+				"/E/Gruntfile.js",
+				"/E/f5/js/Gruntfile.js",
+				"/E/package.json",
+				"/E/st/Packages/User/index.html"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"utf-8",
+					"uft-8",
+					"-webkit-",
+					"alternate",
+					".tr",
+					"kf",
+					".tf",
+					"transform",
+					"ation",
+					"transition",
+					"e:/js/clean/"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/E/fis/fis-conf.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 939,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										939,
+										740
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 372.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 16,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										16
+									]
+								],
+								"settings":
+								{
+									"auto_name": "less,only once;",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 38.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 190.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"position": "0,2,3,-32000,-32000,-1,-1,760,90,90,908",
+			"project": "",
+			"replace":
+			{
+				"height": 72.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 188.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

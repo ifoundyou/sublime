@@ -1,0 +1,13 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Autoprefixer",
+		"Emmet",
+		"HTML-CSS-JS Prettify",
+		"JSLint",
+		"Package Control"
+	]
+}

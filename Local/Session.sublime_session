@@ -1,0 +1,398 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3065,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"ht",
+						"http"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/E/fis/fis-conf.js",
+					"settings":
+					{
+						"buffer_size": 939,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "/*position*/\n.ind{\n	position: absolute;\n}\n.top-640{\n	top: -640px;\n}\n.top0{\n	top: 0;\n}\n.top640{\n	top: 640px;\n}\n.bottom-640{\n	bottom: -640px;\n}\n.bottom0{\n	bottom: 0;\n}\n.bottom640{\n	bottom: 640px;\n}\n.left-640{\n	left: -640px;\n}\n.left0{\n	left: 0;\n}\n.left640{\n	left: 640px;\n}\n.right-640px{\n	right: -640px;\n}\n.right0{\n	right: 0px;\n}\n.right640{\n	right: 640px;\n}\n.x-center{\n    margin: 0 auto;\n}\n/*size*/\n.fullOfCt{\n	width: 100%;height: auto;\n}\n.width320{\n  width:320px;\n}\n.width640{\n	width: 640px;\n}\n.height320{\n  height:320px;\n}\n.height640{\n	height: 640px;\n}\n.tf-scale0{\n	-webkit-transform: scale(0);\n	   -moz-transform: scale(0);\n	    -ms-transform: scale(0);\n	        transform: scale(0);\n}\n.tf-scale1{\n	-webkit-transform: scale(1);\n	   -moz-transform: scale(1);\n	    -ms-transform: scale(1);\n	        transform: scale(1);\n}\n/*color*/\n.opacity1{\n	opacity: 1;\n}\n.opacity0{\n	opacity: 0;\n}\n.black-slide{\n  background-color:black;\n}\n.red-slide{\n  background-color:red;\n}\n/*animation*/\n.st-duration300ms{\n	-webkit-transition-duration: 300ms;\n	   -moz-transition-duration: 300ms;\n	        transition-duration: 300ms;\n}\n.st-duration600ms{\n	-webkit-transition-duration: 300ms;\n	   -moz-transition-duration: 300ms;\n	        transition-duration: 300ms;\n}\n.st-duration1s{\n	-webkit-transition-duration: 1s;\n	   -moz-transition-duration: 1s;\n	        transition-duration: 1s;\n}\n.st-duration2s{\n	-webkit-transition-duration: 2s;\n	   -moz-transition-duration: 2s;\n	        transition-duration: 2s;\n}\n.st-duration3s{\n	-webkit-transition-duration: 3s;\n	   -moz-transition-duration: 3s;\n	        transition-duration: 3s;\n}\n.st-delay300ms{\n    -webkit-transition-delay:300ms;\n       -moz-transition-delay:300ms;\n            transition-delay:300ms;\n}\n.st-delay600ms{\n    -webkit-transition-delay:600ms;\n       -moz-transition-delay:600ms;\n            transition-delay:600ms;\n}\n.st-delay1s{\n    -webkit-transition-delay:1000ms;\n       -moz-transition-delay:1000ms;\n            transition-delay:1000ms;\n}\n.st-delay2s{\n    -webkit-transition-delay:2000ms;\n       -moz-transition-delay:2000ms;\n            transition-delay:2000ms;\n}\n.st-delay3s{\n    -webkit-transition-delay:3000ms;\n       -moz-transition-delay:3000ms;\n            transition-delay:3000ms;\n}\n.at-duration300s{\n    -webkit-animation-duration:300ms;\n       -moz-animation-duration:300ms;\n            animation-duration:300ms;\n}\n.at-duration600ms{\n    -webkit-animation-duration:600ms;\n       -moz-animation-duration:600ms;\n            animation-duration:600ms;\n}\n.at-duration1s{\n    -webkit-animation-duration:1000ms;\n       -moz-animation-duration:1000ms;\n            animation-duration:1000ms;\n}\n.at-duration2s{\n    -webkit-animation-duration:2000ms;\n       -moz-animation-duration:2000ms;\n            animation-duration:2000ms;\n}\n.at-duration3s{\n    -webkit-animation-duration:3000ms;\n       -moz-animation-duration:3000ms;\n            animation-duration:3000ms;\n}\n.at-delay300ms{\n    -webkit-animation-delay:300ms;\n       -moz-animation-delay:300ms;\n            animation-delay:300ms;\n}\n.at-delay600ms{\n    -webkit-animation-delay:600ms;\n       -moz-animation-delay:600ms;\n            animation-delay:600ms;\n}\n.at-delay1s{\n    -webkit-animation-delay:1000ms;\n       -moz-animation-delay:1000ms;\n            animation-delay:1000ms;\n}\n.at-delay2s{\n    -webkit-animation-delay:2000ms;\n       -moz-animation-delay:2000ms;\n            animation-delay:2000ms;\n}\n.at-delay3s{\n    -webkit-animation-delay:3000ms;\n       -moz-animation-delay:3000ms;\n            animation-delay:3000ms;\n}\n.at-iteration-infinite{\n    -webkit-animation-iteration-count:infinite;\n       -moz-animation-iteration-count:infinite;\n            animation-iteration-count:infinite;\n}\n.at-direction-alternate{\n	-webkit-animation-direction:alternate;\n	   -moz-animation-direction:alternate;\n	        animation-direction:alternate;\n}\n.at-direction-normal{\n	-webkit-animation-direction:normal;\n	   -moz-animation-direction:normal;\n	        animation-direction:normal;\n}\n.at-mode-forwards{\n	-webkit-animation-fill-mode: forwards;\n	   -moz-animation-fill-mode: forwards;\n	        animation-fill-mode: forwards;\n}\n.at-mode-backwards{\n	-webkit-animation-fill-mode: backwards;\n	   -moz-animation-fill-mode: backwards;\n	        animation-fill-mode: backwards;\n}\n.at-mode-both{\n	-webkit-animation-fill-mode: both;\n	   -moz-animation-fill-mode: both;\n	        animation-fill-mode: both;\n}\n",
+					"file": "/F/Desktop/360云盘/css3.css",
+					"file_size": 4597,
+					"file_write_time": 130702009846343332,
+					"settings":
+					{
+						"buffer_size": 4382,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "less,only once;\n",
+					"settings":
+					{
+						"buffer_size": 16,
+						"line_ending": "Windows",
+						"name": "less,only once;"
+					}
+				},
+				{
+					"file": "/F/Desktop/360云盘/王新科 汉 1939  370728193907051132",
+					"settings":
+					{
+						"buffer_size": 108,
+						"line_ending": "Windows",
+						"name": "王新科 汉 1939  370728193907051132"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 490.0,
+				"selected_items":
+				[
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"paka",
+						"Package Control: List Packages"
+					],
+					[
+						"auto",
+						"Autoprefix CSS"
+					],
+					[
+						"au",
+						"Autoprefix CSS"
+					],
+					[
+						"a",
+						"Autoprefix CSS"
+					],
+					[
+						"sscss",
+						"Set Syntax: CSS"
+					]
+				],
+				"width": 549.0
+			},
+			"console":
+			{
+				"height": 232.0,
+				"history":
+				[
+					"import urllib.request,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib.request.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())",
+					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/F/Desktop/store.css",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Autoprefixer.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+				"/F/Desktop/node/Math.js",
+				"/F/Desktop/node/main.js",
+				"/F/Desktop/node/ball.html",
+				"/D/fis-quickstart-demo/fis-conf.js",
+				"/F/Desktop/node/node_modules/cookie/index.js",
+				"/E/coding-save-f5/Gruntfile.js",
+				"/E/trilogy/Gruntfile.js",
+				"/E/trilogy/dest/lib.js",
+				"/E/trilogy/js/main.js",
+				"/E/trilogy/dest/main.min.js",
+				"/E/trilogy/index.html",
+				"/E/trilogy/npm-debug.log",
+				"/E/trilogy/package.json",
+				"/E/grunt/Gruntfile.js",
+				"/E/coding-save-f5/index.html",
+				"/E/coding-save-f5/package.json",
+				"/E/grunt/package.json",
+				"/E/f5/package.json",
+				"/E/f5/Gruntfile.js",
+				"/E/Gruntfile.js",
+				"/E/f5/js/Gruntfile.js",
+				"/E/package.json",
+				"/E/st/Packages/User/index.html"
+			],
+			"find":
+			{
+				"height": 48.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"utf-8",
+					"uft-8",
+					"-webkit-",
+					"alternate",
+					".tr",
+					"kf",
+					".tf",
+					"transform",
+					"ation",
+					"transition",
+					"e:/js/clean/"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/E/fis/fis-conf.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 939,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										939,
+										740
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 760.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/F/Desktop/360云盘/css3.css",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4382,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										14,
+										14
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CSS/CSS.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 4410.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 16,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										16
+									]
+								],
+								"settings":
+								{
+									"auto_name": "less,only once;",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/F/Desktop/360云盘/王新科 汉 1939  370728193907051132",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 108,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										108,
+										108
+									]
+								],
+								"settings":
+								{
+									"auto_name": "王新科 汉 1939  370728193907051132",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 38.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"position": "0,2,3,-32000,-32000,-1,-1,760,90,90,908",
+			"project": "",
+			"replace":
+			{
+				"height": 72.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 188.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
