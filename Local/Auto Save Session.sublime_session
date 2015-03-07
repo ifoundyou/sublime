@@ -24,36 +24,65 @@
 			"buffers":
 			[
 				{
+					"contents": "//Step 1. 取消下面的注释开启simple插件，注意需要先进行插件安装 npm install -g fis-postpackager-simple\nfis.config.set('modules.postpackager', 'simple');\n\n//通过pack设置干预自动合并结果，将公用资源合并成一个文件，更加利于页面间的共用\n\n//Step 2. 取消下面的注释开启pack人工干预\nfis.config.set('pack', {\n    'pkg/lib.js': [\n        '/lib/mod.js',\n        '/modules/underscore/**.js',\n        '/modules/backbone/**.js',\n        '/modules/jquery/**.js',\n        '/modules/vendor/**.js',\n        '/modules/common/**.js'\n    ]\n});\n\n// Step 3. 取消下面的注释可以开启simple对零散资源的自动合并\nfis.config.set('settings.postpackager.simple.autoCombine', true);\n\n\n//Step 4. 取消下面的注释开启图片合并功能\nfis.config.set('roadmap.path', [{\n    reg: '**.css',\n    useSprite: true\n}]);\nfis.config.set('settings.spriter.csssprites.margin', 20);\n//Step 5. 线上路径配置\n// fis.config.set(\"roadmap.domain\", \"http://static.baidu.com\"); //配置domain\n// fis.config.set(\"roadmap.path\", [{\n//     reg: /^\\/static\\/a\\.css$/,\n//     release: '/static/release/a.css' //配置产出路径\n// }]);\n",
 					"file": "/E/fis/fis-conf.js",
+					"file_size": 1215,
+					"file_write_time": 130699572287933340,
 					"settings":
 					{
-						"buffer_size": 939,
+						"buffer_size": 940,
 						"line_ending": "Windows"
 					}
 				},
 				{
-					"contents": "less,only once;\n",
+					"contents": "do less and only once;\n",
 					"settings":
 					{
-						"buffer_size": 16,
+						"buffer_size": 23,
 						"line_ending": "Windows",
-						"name": "less,only once;"
+						"name": "do less and only once;"
+					}
+				},
+				{
+					"contents": "Package Control Messages\n========================\n\nCSS Extended Completions:\n------------------------\n\n  CSS Extended Completions\n  \n  Save any file you're working on to add its CSS/LESS/SCSS symbols to the completion index.\n  \n  The following completions are provided:\n  \n  - Extended CSS property/values\n  - CSS class names\n  - CSS IDs\n  - LESS variables/mixins/classes\n  - SCSS variables/mixins/classes\n  \n  Available Options\n  \n  - Options for what scopes trigger completions\n  - Option to auto clear cache on close.\n    Set \"save_cache_to_file\":false (defaults to true)\n  - Auto load css/less/scss from external folders\n    Example: \"load_external_files\":[\"/some/folder\", \"/another/folder\"]\n    (Must be absolute paths)\n  - Option to adjust what pseudo selectors are added to completions\n  - And more, just checkout the Default Settings file\n    Preferences > Package Settings > CSS Extended Completions\n  \n  \n  To delete your cache, open the command palette and type 'CSS delete cache'\n  \n  ",
+					"settings":
+					{
+						"buffer_size": 997,
+						"line_ending": "Windows",
+						"name": "Package Control Messages",
+						"scratch": true
 					}
 				}
 			],
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 269.0,
+				"height": 129.0,
 				"selected_items":
 				[
 					[
-						"sshtt",
-						"Set Syntax: HTML"
-					],
-					[
 						"insta",
 						"Package Control: Install Package"
+					],
+					[
+						"html",
+						"HTMLPrettify"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: List Packages"
+					],
+					[
+						"sshtt",
+						"Set Syntax: HTML"
 					],
 					[
 						"jsli",
@@ -70,14 +99,6 @@
 					[
 						"ssjs",
 						"Set Syntax: JavaScript"
-					],
-					[
-						"html",
-						"HTMLPrettify"
-					],
-					[
-						"in",
-						"Package Control: Install Package"
 					],
 					[
 						"paka",
@@ -122,15 +143,15 @@
 			},
 			"file_history":
 			[
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Autoprefixer.sublime-settings",
 				"/F/Desktop/360云盘/代码/css3.css",
 				"/F/Desktop/360云盘/代码/transition.js",
 				"/F/Desktop/360云盘/王新科 汉 1939  370728193907051132",
 				"/F/Desktop/360云盘/css3.css",
 				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 				"/F/Desktop/store.css",
-				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Autoprefixer.sublime-settings",
-				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 				"/F/Desktop/node/Math.js",
 				"/F/Desktop/node/main.js",
@@ -200,7 +221,7 @@
 			"groups":
 			[
 				{
-					"selected": 1,
+					"selected": 2,
 					"sheets":
 					[
 						{
@@ -209,26 +230,22 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 939,
+								"buffer_size": 940,
 								"regions":
 								{
 								},
 								"selection":
 								[
-									[
-										939,
-										740
-									]
 								],
 								"settings":
 								{
 									"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 372.0,
+								"translation.y": 630.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 1,
+							"stack_index": 2,
 							"type": "text"
 						},
 						{
@@ -236,24 +253,53 @@
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 16,
+								"buffer_size": 23,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										16
+										2,
+										2
 									]
 								],
 								"settings":
 								{
-									"auto_name": "less,only once;",
+									"auto_name": "do less and only once;",
 									"syntax": "Packages/Text/Plain text.tmLanguage"
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 997,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										997,
+										997
+									]
+								],
+								"settings":
+								{
+									"auto_indent": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1410.0,
 								"zoom_level": 1.0
 							},
 							"stack_index": 0,
@@ -293,6 +339,10 @@
 				]
 			},
 			"menu_visible": true,
+			"output.CSS Extended Completions":
+			{
+				"height": 0.0
+			},
 			"output.exec":
 			{
 				"height": 190.0

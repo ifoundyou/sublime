@@ -5,6 +5,7 @@
 	"installed_packages":
 	[
 		"Autoprefixer",
+		"CSS Extended Completions",
 		"Emmet",
 		"HTML-CSS-JS Prettify",
 		"JSLint",
