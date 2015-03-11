@@ -13,6 +13,7 @@
 		"FileHeader",
 		"HTML-CSS-JS Prettify",
 		"JSLint",
-		"Package Control"
+		"Package Control",
+		"SublimeCodeIntel"
 	]
 }

@@ -1,266 +1,18 @@
 {
 	"folder_history":
 	[
+		"/F/Desktop/pro/grunt-empty",
+		"/F/Desktop/pro/grunt-start2",
+		"/F/Desktop/pro/jquery-bootstrap-start",
+		"/F/Desktop/pro/yo/angular-in-action"
 	],
 	"last_version": 3065,
-	"last_window_id": 2,
+	"last_window_id": 5,
 	"log_indexing": false,
 	"settings":
 	{
 		"new_window_height": 600.0,
 		"new_window_settings":
-		{
-			"auto_complete":
-			{
-				"selected_items":
-				[
-					[
-						"ht",
-						"http"
-					]
-				]
-			},
-			"build_system": "",
-			"command_palette":
-			{
-				"height": 490.0,
-				"selected_items":
-				[
-					[
-						"html",
-						"HTMLPrettify"
-					],
-					[
-						"ins",
-						"Package Control: Install Package"
-					],
-					[
-						"ali",
-						"Preferences: Alignment File Settings – Default"
-					],
-					[
-						"ssjs",
-						"Set Syntax: JavaScript"
-					],
-					[
-						"cssco",
-						"Run CSScomb"
-					],
-					[
-						"css",
-						"Run CSScomb"
-					],
-					[
-						"in",
-						"Package Control: Install Package"
-					],
-					[
-						"insta",
-						"Package Control: Install Package"
-					],
-					[
-						"Package Control: ",
-						"Package Control: List Packages"
-					],
-					[
-						"sshtt",
-						"Set Syntax: HTML"
-					],
-					[
-						"jsli",
-						"JSLint"
-					],
-					[
-						"inst",
-						"Package Control: Install Package"
-					],
-					[
-						"htm",
-						"HTMLPrettify"
-					],
-					[
-						"paka",
-						"Package Control: List Packages"
-					],
-					[
-						"auto",
-						"Autoprefix CSS"
-					],
-					[
-						"au",
-						"Autoprefix CSS"
-					],
-					[
-						"a",
-						"Autoprefix CSS"
-					],
-					[
-						"sscss",
-						"Set Syntax: CSS"
-					]
-				],
-				"width": 725.0
-			},
-			"console":
-			{
-				"height": 232.0,
-				"history":
-				[
-					"import urllib.request,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib.request.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())",
-					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = "
-				]
-			},
-			"distraction_free":
-			{
-				"menu_visible": true,
-				"show_minimap": false,
-				"show_open_files": false,
-				"show_tabs": false,
-				"side_bar_visible": false,
-				"status_bar_visible": false
-			},
-			"file_history":
-			[
-				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Terminal/Base File.sublime-settings",
-				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Autoprefixer.sublime-settings",
-				"/F/Desktop/360云盘/代码/css3.css",
-				"/F/Desktop/360云盘/代码/transition.js",
-				"/F/Desktop/360云盘/王新科 汉 1939  370728193907051132",
-				"/F/Desktop/360云盘/css3.css",
-				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
-				"/F/Desktop/store.css",
-				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-				"/F/Desktop/node/Math.js",
-				"/F/Desktop/node/main.js",
-				"/F/Desktop/node/ball.html",
-				"/D/fis-quickstart-demo/fis-conf.js",
-				"/F/Desktop/node/node_modules/cookie/index.js",
-				"/E/coding-save-f5/Gruntfile.js",
-				"/E/trilogy/Gruntfile.js",
-				"/E/trilogy/dest/lib.js",
-				"/E/trilogy/js/main.js",
-				"/E/trilogy/dest/main.min.js",
-				"/E/trilogy/index.html",
-				"/E/trilogy/npm-debug.log",
-				"/E/trilogy/package.json",
-				"/E/grunt/Gruntfile.js",
-				"/E/coding-save-f5/index.html",
-				"/E/coding-save-f5/package.json",
-				"/E/grunt/package.json",
-				"/E/f5/package.json",
-				"/E/f5/Gruntfile.js",
-				"/E/Gruntfile.js",
-				"/E/f5/js/Gruntfile.js",
-				"/E/package.json",
-				"/E/st/Packages/User/index.html"
-			],
-			"find":
-			{
-				"height": 38.0
-			},
-			"find_in_files":
-			{
-				"height": 0.0,
-				"where_history":
-				[
-				]
-			},
-			"find_state":
-			{
-				"case_sensitive": false,
-				"find_history":
-				[
-					"utf-8",
-					"uft-8",
-					"-webkit-",
-					"alternate",
-					".tr",
-					"kf",
-					".tf",
-					"transform",
-					"ation",
-					"transition",
-					"e:/js/clean/"
-				],
-				"highlight": true,
-				"in_selection": false,
-				"preserve_case": false,
-				"regex": false,
-				"replace_history":
-				[
-				],
-				"reverse": false,
-				"show_context": true,
-				"use_buffer2": true,
-				"whole_word": false,
-				"wrap": true
-			},
-			"incremental_find":
-			{
-				"height": 38.0
-			},
-			"input":
-			{
-				"height": 0.0
-			},
-			"menu_visible": true,
-			"output.CSS Extended Completions":
-			{
-				"height": 0.0
-			},
-			"output.exec":
-			{
-				"height": 190.0
-			},
-			"output.find_results":
-			{
-				"height": 0.0
-			},
-			"replace":
-			{
-				"height": 72.0
-			},
-			"save_all_on_build": true,
-			"select_file":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_project":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"select_symbol":
-			{
-				"height": 0.0,
-				"selected_items":
-				[
-				],
-				"width": 0.0
-			},
-			"show_minimap": true,
-			"show_open_files": false,
-			"show_tabs": true,
-			"side_bar_visible": true,
-			"side_bar_width": 188.0,
-			"status_bar_visible": true,
-			"template_settings":
-			{
-			}
-		},
-		"new_window_width": 800.0
-	},
-	"windows":
-	[
 		{
 			"auto_complete":
 			{
@@ -276,90 +28,12 @@
 					]
 				]
 			},
-			"buffers":
-			[
-				{
-					"contents": "//Step 1. 取消下面的注释开启simple插件，注意需要先进行插件安装 npm install -g fis-postpackager-simple\nfis.config.set('modules.postpackager', 'simple');\n\n//通过pack设置干预自动合并结果，将公用资源合并成一个文件，更加利于页面间的共用\n\n//Step 2. 取消下面的注释开启pack人工干预\nfis.config.set('pack', {\n    'pkg/lib.js': [\n        '/lib/mod.js',\n        '/modules/underscore/**.js',\n        '/modules/backbone/**.js',\n        '/modules/jquery/**.js',\n        '/modules/vendor/**.js',\n        '/modules/common/**.js'\n    ]\n});\n\n// Step 3. 取消下面的注释可以开启simple对零散资源的自动合并\nfis.config.set('settings.postpackager.simple.autoCombine', true);\n\n\n//Step 4. 取消下面的注释开启图片合并功能\nfis.config.set('roadmap.path', [{\n    reg: '**.css',\n    useSprite: true\n}]);\n/**\n * \n */\nfis.config.set('settings.spriter.csssprites.margin', 20);\n//Step 5. 线上路径配置\n// fis.config.set(\"roadmap.domain\", \"http://static.baidu.com\"); //配置domain\n// fis.config.set(\"roadmap.path\", [{\n//     reg: /^\\/static\\/a\\.css$/,\n//     release: '/static/release/a.css' //配置产出路径\n// }]);\n/**\n * \n */",
-					"file": "/E/fis/fis-conf.js",
-					"file_size": 1215,
-					"file_write_time": 130699572287933340,
-					"settings":
-					{
-						"buffer_size": 963,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"contents": "do less and only once;\n",
-					"settings":
-					{
-						"buffer_size": 23,
-						"line_ending": "Windows",
-						"name": "do less and only once;"
-					}
-				},
-				{
-					"contents": "/* \n* @Author: wanghongxin\n* @Date:   2015-03-08 01:54:53\n* @Contact:wanghongxin#outlook.com(QQ2262118088)\n* @Last Modified by:   wanghongxin\n* @Last Modified time: 2015-03-08 02:11:54\n*/\n\n\n\nfunction(b) {\n    var a = 0;\n    var c = a + b;\n    return c;\n}\nvar c = 0;\n",
-					"file": "/F/Desktop/test.js",
-					"file_size": 87,
-					"file_write_time": 130702255143053502,
-					"settings":
-					{
-						"buffer_size": 266,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/contact.sublime-snippet",
-					"settings":
-					{
-						"buffer_size": 321,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-					"settings":
-					{
-						"buffer_size": 377,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"file": "/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/FileHeader.sublime-settings",
-					"settings":
-					{
-						"buffer_size": 6678,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n	<meta charset=\"UTF-8\">\n	<title>Document</title>\n</head>\n<body>\n	\n</body>\n</html>",
-					"settings":
-					{
-						"buffer_size": 121,
-						"line_ending": "Windows"
-					}
-				},
-				{
-					"contents": "{\n    /*\n    options\n    =======\n    */\n\n    /*\n    The datetime format.\n        0: \"%Y-%m-%d %H:%M:%S\"\n        1: \"%Y-%m-%d\"\n        2: \"%H:%M:%S\"\n    */\n    \"time_format\": 0,\n    /*\n    The custom time format. It will format `create_time` and `last_modified_time`\n    instead of `time_format` if you set it. The time format refers to`\n    https://docs.python.org/2/library/datetime.html#strftime-and-strptime-behavior`.\n    */\n    \"custom_time_format\": \"\",\n    /*\n    Whether add template to the empty file.\n    It's useful when you create new file through other command, for\n    example, the default Sublime Text's **New File...** or other plugin.\n    */\n    \"enable_add_template_to_empty_file\": true,\n    /*\n    Set your custom template header path here, it is a directory in which\n    you write your own header files. The file name should be a language,\n    \"Python.tmpl\" for example.\n    */\n    \"custom_template_header_path\": \"\",\n    /*\n    Set your custom template body path here, it is a directory in which\n    you write your own body files. The file name should be a language,\n    \"Python.tmpl\" for example.\n    The template structure is:\n        I am a file\n        -----------\n        header\n        body\n    */\n    \"custom_template_body_path\": \"\",\n    /*\n    Whether show input panel when you add header. The default file which\n    you add header to is the current file you edit.\n    */\n    \"show_input_panel_when_add_header\": true,\n    /*\n    Whether open file when you add header to files in the specified\n    directory.\n    */\n    \"open_file_when_add_header_to_directory\": true,\n    /*\n    Whether enable add header to hidden directory. If false, FileHeader\n    won't add header to files under it.\n    */\n    \"enable_add_header_to_hidden_dir\": false,\n    /*\n    Whether enable add header to hidden file. If false, FileHeader\n    won't add header to it.\n    */\n    \"enable_add_header_to_hidden_file\": false,\n    /*\n    FileHeader judges programming language according file suffix.\n    Default programming language if FileHeader judges failed when you\n    create new file.\n    */\n    \"syntax_when_not_match\": \"Text\",\n    /*\n    FileHeader will judge programming language according to file suffix.\n    You can add more file suffix here. Note: language should be one of\n    that under **Default**. If FileHeader don't find the suffix,\n    FileHeader will set language as **syntax_when_not_match** above.\n    */\n    \"file_suffix_mapping\": {\n        \"as\": \"ActionScript\",\n        \"scpt\": \"AppleScript\",\n        \"asp\": \"ASP\",\n        \"aspx\": \"ASP\",\n        \"bat\": \"Batch File\",\n        \"cmd\": \"Batch File\",\n        \"c\": \"C\",\n        \"cs\": \"C#\",\n        \"cpp\": \"C++\",\n        \"clj\": \"Clojure\",\n        \"css\": \"CSS\",\n        \"D\": \"D\",\n        \"erl\": \"Erlang\",\n        \"go\": \"Go\",\n        \"groovy\": \"Groovy\",\n        \"hs\": \"Haskell\",\n        \"htm\": \"HTML\",\n        \"html\": \"HTML\",\n        \"java\": \"Java\",\n        \"js\": \"JavaScript\",\n        \"tex\": \"LaTeX\",\n        \"lsp\": \"Lisp\",\n        \"lua\": \"Lua\",\n        \"md\": \"Markdown\",\n        \"mat\": \"Matlab\",\n        \"m\": \"Objective-C\",\n        \"ml\": \"OCaml\",\n        \"p\": \"Pascal\",\n        \"pl\": \"Perl\",\n        \"php\": \"PHP\",\n        \"py\": \"Python\",\n        \"R\": \"R\",\n        \"rst\": \"RestructuredText\",\n        \"rb\": \"Ruby\",\n        \"scala\": \"Scala\",\n        \"sh\": \"ShellScript\",\n        \"sql\": \"SQL\",\n        \"tcl\": \"TCL\",\n        \"txt\": \"Text\",\n        \"xml\": \"XML\"\n    },\n    /*\n    Set special file suffix equivalence. Take `blade.php` for example,\n    FileHeader will initial file with suffix `blade.php` with that of `html`.\n    */\n    \"extension_equivalence\": {\n        \"blade.php\": \"html\"\n    },\n\n    /*\n    Variables\n    =========\n    */\n\n    /*\n    Below is the variables you render templater.\n    */\n    \"Default\": {\n        /*\n        Builtin Variables\n        =================\n        - create_time\n            The file created time. It will be automatically set when you create\n            a new file if you use it.\n            Can't be set custom.\n        - author\n            The file creator.\n            FileHeader will set it automatically. If it's in\n            a git repository and the `user.name` has been set, `autor`\n            will set to `user.name`, otherwise it will be set to current\n            system user.\n            Can be set custom.\n        - last_modified_by\n            The file last modified by who? It is specially useful when\n            cooperation programming.\n            FileHeader will set it automatically. If it's in\n            a git repository and the `user.name` has been set, `autor`\n            will set to `user.name`, otherwise it will be set to current\n            system logined user.\n            Can be set custom.\n        - last_modified_time\n            The file last modified time.\n            FileHeader will set it automatically when you save the file.\n            Can't be set custom.\n        - file_path\n            The absolute path of the current file.\n            FileHeader will update it automatically when you change it.\n            Can't be set custom.\n        - file_name\n            The name of current file with extension.\n            FileHeader will update it automatically when you change it.\n            Can't be set custom.\n        - file_name_without_extension\n            The name of current file without extension.\n            FileHeader will update it automatically when you change it.\n            Can't be set custom.\n        - project_name\n            The project name.\n            Note: `project_name` only works in ST3.\n            Can't be set custom.\n        */\n\n        /*\n        Email\n        */\n        \"author\": \"wanghongxin\",\n        \"email\": \"wanghongxin@outlook.com\",\n        \"QQ\": \"2262118088\"\n\n        // You can add more here......\n    },\n    /*\n    You can set different variables in different languages. It will cover\n    that in \"Default\".\n    */\n    \"ASP\": {},\n    \"ActionScript\": {},\n    \"AppleScript\": {},\n    \"Batch File\": {},\n    \"C#\": {},\n    \"C++\": {},\n    \"CSS\": {},\n    \"Clojure\": {},\n    \"D\": {},\n    \"Diff\": {},\n    \"Erlang\": {},\n    \"Go\": {},\n    \"Graphviz\": {},\n    \"Groovy\": {},\n    \"HTML\": {},\n    \"Haskell\": {},\n    \"Java\": {},\n    \"JavaScript\": {},\n    \"LaTeX\": {},\n    \"Lisp\": {},\n    \"Lua\": {},\n    \"Makefile\": {},\n    \"Markdown\": {},\n    \"Matlab\": {},\n    \"OCaml\": {},\n    \"Objective-C\": {},\n    \"PHP\": {},\n    \"Pascal\": {},\n    \"Perl\": {},\n    \"Python\": {},\n    \"R\": {},\n    \"RestructuredText\": {},\n    \"Ruby\": {},\n    \"SQL\": {},\n    \"Scala\": {},\n    \"ShellScript\": {},\n    \"TCL\": {},\n    \"Text\": {},\n    \"Textile\": {},\n    \"XML\": {},\n    \"YAML\": {}\n}",
-					"settings":
-					{
-						"buffer_size": 6628,
-						"line_ending": "Windows"
-					}
-				}
-			],
 			"build_system": "",
 			"command_palette":
 			{
-				"height": 381.0,
+				"height": 185.0,
 				"selected_items":
 				[
-					[
-						"html",
-						"HTMLPrettify"
-					],
 					[
 						"ssjs",
 						"Set Syntax: JavaScript"
@@ -367,6 +41,10 @@
 					[
 						"insta",
 						"Package Control: Install Package"
+					],
+					[
+						"html",
+						"HTMLPrettify"
 					],
 					[
 						"ins",
@@ -459,10 +137,18 @@
 			},
 			"file_history":
 			[
-				"/F/Desktop/w",
+				"/F/Desktop/pro/jquery-bootstrap-start/bowercc",
+				"/F/Desktop/pro/jquery-bootstrap-start/bower.json",
+				"/F/Desktop/pro/jquery-bootstrap-start/bower_components/clean/.bower.json",
+				"/F/Desktop/pro/yo/angular-in-action/.editorconfig",
+				"/D/我的资料库/Downloads/ddd/js/app.js",
+				"/E/fis/fis-conf.js",
+				"/F/Desktop/python-study/start.py",
 				"/F/Desktop/test.js",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/contact.sublime-snippet",
 				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/FileHeader.sublime-settings",
+				"/F/Desktop/w",
 				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
 				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Terminal/Base File.sublime-settings",
 				"/F/Desktop/store.css",
@@ -540,412 +226,350 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"incremental_find":
+			{
+				"height": 38.0
+			},
+			"input":
+			{
+				"height": 48.0
+			},
+			"menu_visible": true,
+			"output.CSS Extended Completions":
+			{
+				"height": 0.0
+			},
+			"output.exec":
+			{
+				"height": 190.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"replace":
+			{
+				"height": 72.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 203.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 800.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"creat",
+						"create_time"
+					],
+					[
+						"ht",
+						"http"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/F/Desktop/pro/grunt-empty/package.json",
+					"settings":
+					{
+						"buffer_size": 420,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/F/Desktop/pro/grunt-empty/Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 875,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n    </head>\n    <body>\n    </body>\n</html>",
+					"file": "/F/Desktop/pro/grunt-empty/index.html",
+					"file_size": -1,
+					"file_write_time": -1,
+					"settings":
+					{
+						"buffer_size": 117,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "/* \n* @Author: wanghongxin\n* @Date:   2015-03-12 01:12:46\n* @Last Modified by:   wanghongxin\n* @Last Modified time: 2015-03-12 01:12:51\n*/\n\n'use strict';",
+					"file": "/F/Desktop/pro/grunt-empty/js/index.js",
+					"file_size": -1,
+					"file_write_time": -1,
+					"settings":
+					{
+						"buffer_size": 153,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"command_palette":
+			{
+				"height": 185.0,
+				"selected_items":
+				[
+					[
+						"ssjs",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"html",
+						"HTMLPrettify"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"ali",
+						"Preferences: Alignment File Settings – Syntax Specific – User"
+					],
+					[
+						"alig",
+						"Preferences: Alignment File Settings – Default"
+					],
+					[
+						"sshtml",
+						"Set Syntax: HTML"
+					],
+					[
+						"sscss",
+						"Set Syntax: CSS"
+					],
+					[
+						"cssco",
+						"Run CSScomb"
+					],
+					[
+						"css",
+						"Run CSScomb"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: List Packages"
+					],
+					[
+						"sshtt",
+						"Set Syntax: HTML"
+					],
+					[
+						"jsli",
+						"JSLint"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"htm",
+						"HTMLPrettify"
+					],
+					[
+						"paka",
+						"Package Control: List Packages"
+					],
+					[
+						"auto",
+						"Autoprefix CSS"
+					],
+					[
+						"au",
+						"Autoprefix CSS"
+					],
+					[
+						"a",
+						"Autoprefix CSS"
+					]
+				],
+				"width": 725.0
+			},
+			"console":
+			{
+				"height": 232.0,
+				"history":
+				[
+					"import urllib.request,os;pf='Package Control.sublime-package';ipp=sublime.installed_packages_path();os.makedirs(ipp) if not os.path.exists(ipp) else None;open(os.path.join(ipp,pf),'wb').write(urllib.request.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read())",
+					"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/F/Desktop/pro/grunt-empty",
+				"/F/Desktop/pro/grunt-empty/app/js"
+			],
+			"file_history":
+			[
+				"/F/Desktop/pro/grunt-empty/packgage.json",
+				"/F/Desktop/pro/jquery-bootstrap-start/bowercc",
+				"/F/Desktop/pro/jquery-bootstrap-start/bower.json",
+				"/F/Desktop/pro/jquery-bootstrap-start/bower_components/clean/.bower.json",
+				"/F/Desktop/pro/yo/angular-in-action/.editorconfig",
+				"/D/我的资料库/Downloads/ddd/js/app.js",
+				"/E/fis/fis-conf.js",
+				"/F/Desktop/python-study/start.py",
+				"/F/Desktop/test.js",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/contact.sublime-snippet",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/FileHeader.sublime-settings",
+				"/F/Desktop/w",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Terminal/Base File.sublime-settings",
+				"/F/Desktop/store.css",
+				"/F/Desktop/ga.js",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Autoprefixer.sublime-settings",
+				"/F/Desktop/360云盘/代码/css3.css",
+				"/F/Desktop/360云盘/代码/transition.js",
+				"/F/Desktop/360云盘/王新科 汉 1939  370728193907051132",
+				"/F/Desktop/360云盘/css3.css",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+				"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+				"/F/Desktop/node/Math.js",
+				"/F/Desktop/node/main.js",
+				"/F/Desktop/node/ball.html",
+				"/D/fis-quickstart-demo/fis-conf.js",
+				"/F/Desktop/node/node_modules/cookie/index.js",
+				"/E/coding-save-f5/Gruntfile.js",
+				"/E/trilogy/Gruntfile.js",
+				"/E/trilogy/dest/lib.js",
+				"/E/trilogy/js/main.js",
+				"/E/trilogy/dest/main.min.js",
+				"/E/trilogy/index.html",
+				"/E/trilogy/npm-debug.log",
+				"/E/trilogy/package.json",
+				"/E/grunt/Gruntfile.js",
+				"/E/coding-save-f5/index.html",
+				"/E/coding-save-f5/package.json",
+				"/E/grunt/package.json",
+				"/E/f5/package.json",
+				"/E/f5/Gruntfile.js",
+				"/E/Gruntfile.js",
+				"/E/f5/js/Gruntfile.js",
+				"/E/package.json",
+				"/E/st/Packages/User/index.html"
+			],
+			"find":
+			{
+				"height": 38.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"utf-8",
+					"uft-8",
+					"-webkit-",
+					"alternate",
+					".tr",
+					"kf",
+					".tf",
+					"transform",
+					"ation",
+					"transition",
+					"e:/js/clean/"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"follow_symlinks": true,
+					"path": "F:\\Desktop\\pro\\grunt-empty"
+				}
+			],
 			"groups":
 			[
 				{
-					"selected": 2,
+					"selected": 1,
 					"sheets":
 					[
 						{
 							"buffer": 0,
-							"file": "/E/fis/fis-conf.js",
+							"file": "/F/Desktop/pro/grunt-empty/package.json",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 963,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										669,
-										669
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 630.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 7,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 23,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										23,
-										23
-									]
-								],
-								"settings":
-								{
-									"auto_name": "do less and only once;",
-									"syntax": "Packages/Text/Plain text.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 3,
-							"type": "text"
-						},
-						{
-							"buffer": 2,
-							"file": "/F/Desktop/test.js",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 266,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										106,
-										106
-									]
-								],
-								"settings":
-								{
-									"auto_complete_triggers":
-									[
-										{
-											"characters": "<",
-											"selector": "text.html"
-										},
-										{
-											"characters": ".#",
-											"selector": "text.html"
-										}
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										223,
-										3,
-										8,
-										1,
-										54,
-										53,
-										0,
-										0,
-										0,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						},
-						{
-							"buffer": 3,
-							"file": "/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/contact.sublime-snippet",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 321,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										31,
-										31
-									]
-								],
-								"settings":
-								{
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										223,
-										3,
-										8,
-										2,
-										7,
-										4,
-										0,
-										0,
-										0,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"default_extension": "sublime-snippet",
-									"syntax": "Packages/XML/XML.tmLanguage"
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"type": "text"
-						},
-						{
-							"buffer": 4,
-							"file": "/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 377,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										185,
-										185
-									]
-								],
-								"settings":
-								{
-									"auto_complete_triggers":
-									[
-										{
-											"characters": "<",
-											"selector": "text.html"
-										},
-										{
-											"characters": ".#",
-											"selector": "text.html"
-										}
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										223,
-										3,
-										7,
-										18,
-										35,
-										49,
-										0,
-										0,
-										0,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"syntax": "Packages/JavaScript/JSON.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 2,
-							"type": "text"
-						},
-						{
-							"buffer": 5,
-							"file": "/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/FileHeader.sublime-settings",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 6678,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										5692,
-										5692
-									]
-								],
-								"settings":
-								{
-									"auto_complete_triggers":
-									[
-										{
-											"characters": "<",
-											"selector": "text.html"
-										},
-										{
-											"characters": ".#",
-											"selector": "text.html"
-										}
-									],
-									"c_time":
-									[
-										128,
-										3,
-										99,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										100,
-										97,
-										116,
-										101,
-										116,
-										105,
-										109,
-										101,
-										10,
-										113,
-										0,
-										67,
-										10,
-										7,
-										223,
-										3,
-										8,
-										1,
-										53,
-										36,
-										0,
-										0,
-										0,
-										113,
-										1,
-										133,
-										113,
-										2,
-										82,
-										113,
-										3,
-										46
-									],
-									"syntax": "Packages/JavaScript/JSON.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 5130.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 4,
-							"type": "text"
-						},
-						{
-							"buffer": 6,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 121,
+								"buffer_size": 420,
 								"regions":
 								{
 								},
@@ -958,42 +582,335 @@
 								],
 								"settings":
 								{
-									"syntax": "Packages/HTML/HTML.tmLanguage"
+									"auto_complete": true,
+									"auto_complete_triggers":
+									[
+										{
+											"characters": "<",
+											"selector": "text.html"
+										},
+										{
+											"characters": ".#",
+											"selector": "text.html"
+										}
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										223,
+										3,
+										12,
+										1,
+										11,
+										13,
+										0,
+										0,
+										0,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"syntax": "Packages/JavaScript/JSON.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
 								},
 								"translation.x": 0.0,
 								"translation.y": 0.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 5,
+							"stack_index": 2,
 							"type": "text"
 						},
 						{
-							"buffer": 7,
+							"buffer": 1,
+							"file": "/F/Desktop/pro/grunt-empty/Gruntfile.js",
 							"semi_transient": false,
 							"settings":
 							{
-								"buffer_size": 6628,
+								"buffer_size": 875,
 								"regions":
 								{
 								},
 								"selection":
 								[
 									[
-										0,
-										6628
+										789,
+										649
 									]
 								],
 								"settings":
 								{
-									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": true
+									"auto_complete": false,
+									"auto_complete_triggers":
+									[
+										{
+											"characters": "<",
+											"selector": "text.html"
+										},
+										{
+											"characters": ".#",
+											"selector": "text.html"
+										}
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										223,
+										3,
+										12,
+										1,
+										21,
+										22,
+										0,
+										0,
+										0,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 								},
 								"translation.x": 0.0,
-								"translation.y": 5172.0,
+								"translation.y": 465.0,
 								"zoom_level": 1.0
 							},
-							"stack_index": 6,
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/F/Desktop/pro/grunt-empty/index.html",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 117,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										65,
+										65
+									]
+								],
+								"settings":
+								{
+									"auto_complete": false,
+									"auto_complete_triggers":
+									[
+										{
+											"characters": "<",
+											"selector": "text.html"
+										},
+										{
+											"characters": ".#",
+											"selector": "text.html"
+										}
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										223,
+										3,
+										12,
+										1,
+										12,
+										0,
+										0,
+										0,
+										0,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"syntax": "Packages/HTML/HTML.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/F/Desktop/pro/grunt-empty/js/index.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 153,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										153,
+										153
+									]
+								],
+								"settings":
+								{
+									"auto_complete": false,
+									"auto_complete_triggers":
+									[
+										{
+											"characters": "<",
+											"selector": "text.html"
+										},
+										{
+											"characters": ".#",
+											"selector": "text.html"
+										}
+									],
+									"c_time":
+									[
+										128,
+										3,
+										99,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										100,
+										97,
+										116,
+										101,
+										116,
+										105,
+										109,
+										101,
+										10,
+										113,
+										0,
+										67,
+										10,
+										7,
+										223,
+										3,
+										12,
+										1,
+										12,
+										46,
+										0,
+										0,
+										0,
+										113,
+										1,
+										133,
+										113,
+										2,
+										82,
+										113,
+										3,
+										46
+									],
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
 							"type": "text"
 						}
 					]
@@ -1036,13 +953,13 @@
 			},
 			"output.exec":
 			{
-				"height": 190.0
+				"height": 40.0
 			},
 			"output.find_results":
 			{
 				"height": 0.0
 			},
-			"position": "0,2,3,-1,-1,-1,-1,760,90,90,908",
+			"position": "0,2,3,-32000,-32000,-1,-1,730,60,60,878",
 			"project": "",
 			"replace":
 			{
@@ -1081,12 +998,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 188.0,
+			"side_bar_width": 203.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 1,
+			"window_id": 5,
 			"workspace_name": ""
 		}
 	],
